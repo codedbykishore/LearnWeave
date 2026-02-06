@@ -121,7 +121,7 @@ if ($ErrorCount -eq 0) {
     Write-Host "  1. Test the API in browser: http://localhost:8127/docs" -ForegroundColor White
     Write-Host "  2. Create admin user: docker exec -it learnweave python create_admin.py" -ForegroundColor White
     Write-Host "  3. Start frontend: cd frontend; npm run dev" -ForegroundColor White
-    Write-Host "  4. Review PRODUCTION_DEPLOYMENT.md for tomorrow's deployment" -ForegroundColor White
+    Write-Host "  4. (Production deployment instructions removed)" -ForegroundColor White
 } else {
     Write-Host "`n✗ $ErrorCount ERROR(S) FOUND!" -ForegroundColor Red
     Write-Host "`nPlease fix the issues above and try again." -ForegroundColor Yellow

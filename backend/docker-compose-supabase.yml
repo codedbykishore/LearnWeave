@@ -15,7 +15,7 @@ services:
     container_name: learnweave
     build:
       context: ..
-      dockerfile: Dockerfile.cloudrun
+      dockerfile: Dockerfile
     environment:
       - WORKERS=1
       - PORT=8080

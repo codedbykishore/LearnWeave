@@ -1,6 +1,6 @@
 # ============================================
 # LearnWeave - Quick Start Script
-# Test locally before Cloud Run deployment
+# Test locally for local development
 # ============================================
 
 Write-Host "================================" -ForegroundColor Cyan
@@ -86,8 +86,8 @@ Write-Host "1. Test API: http://localhost:8127/docs" -ForegroundColor White
 Write-Host "2. View logs: docker-compose -f docker-compose-supabase.yml logs -f" -ForegroundColor White
 Write-Host "3. Stop: docker-compose -f docker-compose-supabase.yml down" -ForegroundColor White
 Write-Host ""
-Write-Host "Ready for Cloud Run deployment!" -ForegroundColor Green
-Write-Host "See: CLOUD_RUN_DEPLOYMENT.md" -ForegroundColor Cyan
+Write-Host "Ready for local testing with Docker!" -ForegroundColor Green
+Write-Host "See: README.md for local deployment instructions" -ForegroundColor Cyan
 Write-Host ""
 
 Set-Location ..
